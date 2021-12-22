@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
-import { fetchRequest } from "./components/postCreator";
+import { fetchRequest } from "./utils/index";
 
 const App = () => {
   const [user, setUser] = useState(); //item on left is the value, item on right is the function (e.g. user =name of value, setUser = function)
